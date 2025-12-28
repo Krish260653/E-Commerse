@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cremora</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0d0d0d;
+      color: #fff;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+      background: transparent;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: 10;
+    }
+
+    header .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #f2c94c;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 16px;
+    }
+
+    .hero {
+      height: 80vh;
+      background: url('hero.jpg') no-repeat center/cover;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding-left: 60px;
+      position: relative;
+    }
+
+    .hero-text {
+      max-width: 450px;
+    }
+
+    .hero-text h1 {
+      font-size: 42px;
+      margin: 0 0 15px;
+      font-weight: bold;
+    }
+
+    .hero-text p {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      padding: 12px 28px;
+      background: #b22222;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .items-section {
+      background: #7a001c;
+      padding: 40px 0;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    .item-box {
+      width: 160px;
+      padding: 20px;
+      background: #440010;
+      border-radius: 12px;
+      color: #fff;
+    }
+
+    .item-box img {
+      width: 120px;
+      height: 90px;
+      margin-bottom: 10px;
+      border-radius: 30px;
+    }
+
+  
+
+    .extra-items {
+      background: #260009;
+      padding: 50px 0;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .extra-card {
+      width: 220px;
+      background: #550015;
+      padding: 20px;
+      border-radius: 14px;
+      text-align: center;
+      color: #fff
+    }
+
+    .extra-card h3 {
+      margin: 10px 0;
+    }
+
+    .extra-card p {
+      font-size: 14px;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">CREMORA</div>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Collections</a>
+    <a href="#">Gifting</a>
+    <a href="#">Our Story</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h1>Indulgence Redefined</h1>
+    <p>Crafted from the world's finest cocoa, our chocolates blend tradition and artistry into every bite.</p>
+    <button class="btn">ORDER NOW</button>
+  </div>
+</section>
+
+<section class="items-section">
+  <div class="item-box">
+    <p>Chocolate Shakes</p>
+    <img src=" https://i.pinimg.com/736x/fe/9f/ff/fe9fffa2636a91ee6308782bea4b145e.jpg" />
+  </div>
+  <div class="item-box">
+    <p>Chocolate Cookies</p>
+    <img src=" https://i.pinimg.com/736x/fe/9f/ff/fe9fffa2636a91ee6308782bea4b145e.jpg" />
+  </div>
+  <div class="item-box">
+    <p>Gift Hampers</p>
+    <img src=" https://i.pinimg.com/736x/8a/90/41/8a90414c09c125379065a971eddb5492.jpg" />
+  </div>
+  <div class="item-box">
+    <p>Wine & Pairings</p>
+    <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrWxWN89Vs5DRUOd_vVsUdp12aamL27B-vIA&s" />
+  </div>
+
+   <div class="item-box">
+    <p>Wine & Pairings</p>
+    <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrWxWN89Vs5DRUOd_vVsUdp12aamL27B-vIA&s" />
+  </div>
+
+   <div class="item-box">
+    <p>Wine & Pairings</p>
+    <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrWxWN89Vs5DRUOd_vVsUdp12aamL27B-vIA&s" />
+  </div>
+
+</section>
+
+<!-- EXTRA ITEM CARDS ADDED -->
+<section class="extra-items">
+  <div class="extra-card">
+    <h3>Dark Truffle Box</h3>
+    <p>Rich handcrafted truffles with a bold cocoa flavour.</p>
+  </div>
+
+  <div class="extra-card">
+    <h3>Berry Choco Cups</h3>
+    <p>Chocolate cups infused with real berry extracts.</p>
+  </div>
+
+  <div class="extra-card">
+    <h3>Caramel Fusion</h3>
+    <p>Soft caramel layered inside premium cocoa shells.</p>
+  </div>
+
+  <div class="extra-card">
+    <h3>Nutty Deluxe</h3>
+    <p>Crunchy nuts blended with silky chocolate cream.</p>
+  </div>
+
+  <!-- Added Product Cards with Price Tags -->
+  <div class="extra-card">
+    
+    <h3>Mint Choco Bliss</h3>
+    <p>Refreshing mint blended with smooth dark chocolate.</p>
+    <p><strong>₹249</strong></p>
+  </div>
+
+  <div class="extra-card">
+    
+    <h3>Orange Zest Bites</h3>
+    <p>Rich cocoa infused with tangy orange zest.</p>
+    <p><strong>₹199</strong></p>
+  </div>
+
+  <div class="extra-card">
+    
+    <h3>Crunchy Roasted Almond</h3>
+    <p>Premium roasted almonds wrapped in milk chocolate.</p>
+    <p><strong>₹299</strong></p>
+  </div>
+
+  <div class="extra-card">
+   
+    <h3>Velvet Coffee Chunks</h3>
+    <p>Strong coffee aroma mixed with velvety cocoa.</p>
+    <p><strong>₹229</strong></p>
+  </div>
+
+  <div class="extra-card">
+   
+    <h3>Velvet Coffee Chunks</h3>
+    <p>Strong coffee aroma mixed with velvety cocoa.</p>
+    <p><strong>₹229</strong></p>
+  </div>
+
+  <div class="extra-card">
+    
+    <h3>Velvet Coffee Chunks</h3>
+    <p>Strong coffee aroma mixed with velvety cocoa.</p>
+    <p><strong>₹229</strong></p>
+  </div>
+</section>
+
+</body>
+</html>
